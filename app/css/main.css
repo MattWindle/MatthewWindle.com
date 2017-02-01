@@ -590,6 +590,7 @@ nav .nav-links {
   -ms-flex-pack: center;
   justify-content: center;
   top: 60px;
+  left: 0;
   width: 100%;
   background-color: #eeeeee;
   height: 0vh;
