@@ -38,7 +38,7 @@
         </div>
     </div>
   </header>
-  <main id="skipnav" role="main" class="container">
+  <main id="skipnav" role="main" class="container post-page">
     <section class="dark-section blog-post">
     <?php
       $path = $_SERVER['DOCUMENT_ROOT'];
@@ -51,6 +51,17 @@
         <div class="blog-button"><a href="/blog/building-my-portfolio.php">Building my portfolio</a></div>
       </div>
     </section>
+    <aside>
+      <h3>Archive</h3>
+      <h4>January 2016</h4>
+      <ul>
+      <a href="" ><li>Performance and Optimisation</li></a>
+      <h4>October 2016</h4>
+      <ul>
+      <a href="/blog/performance-and-optimisation.php" ><li>Performance and Optimisation</li></a>
+      <a href="/blog/the-industry.php" ><li>The Industry</li></a>
+      <a href="/blog/" ><li>Building my Portfolio</li></a>
+    </aside>
   </main>
 
 
