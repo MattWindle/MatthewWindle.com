@@ -4,6 +4,7 @@
     <title>The Industry</title>
     <date>10th Oct 2016</date>
     <author>Matthew Windle</author>
+    <image>/dist/images/blog-headers/industry.jpg</image>
     <content>
       <![CDATA[
 
@@ -64,6 +65,7 @@
     <title>Building my portfolio</title>
     <date>20th Oct 2016</date>
     <author>Matthew Windle</author>
+    <image>/dist/images/blog-headers/building.jpg</image>
     <content>
       <![CDATA[
       <h3>The start of a project</h3>
@@ -80,7 +82,7 @@
         <img src="/dist/images/site-structure.png" alt="Website structure for showing the paths between links for matthewwindle.com" >
         <figcaption>The Website structure for matthewwindle.com</figcaption>
       </figure>
-      <p>After the structure has been decided I normally look for websites similar to the website subject for inspiration. A quick search of the type of website you are creating will return many results. I normally stumble across <a href="http://www.creativebloq.com/">creativeblog.com</a> or <a href="http://www.awwwards.com/websites/portfolio/">awwwards.com</a> which both have a great selection of websites to help with your design.</p>
+      <p>After the structure has been decided I normally look for websites similar to the website subject for inspiration. A quick search of the type of website you are creating will return many results. I normally stumble across <a href="http://www.creativebloq.com/">creativebloq.com</a> or <a href="http://www.awwwards.com/websites/portfolio/">awwwards.com</a> which both have a great selection of websites to help with your design.</p>
 
       <h3>The design process</h3>
       <p>The initial design process usually lasts around an hour where I simply scribble down wireframes on a piece of paper. This helps me get a rough idea of what I want from the website in terms of the appearance and find that it’s the quickest way.</p>
@@ -155,6 +157,7 @@
     <title>Performance and optimisation</title>
     <date>27th Oct 2016</date>
     <author>Matthew Windle</author>
+    <image>/dist/images/blog-headers/performance.jpg</image>
     <content>
       <![CDATA[
 

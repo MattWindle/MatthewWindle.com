@@ -43,6 +43,7 @@
 
         for ($x = count($xml)-1; $x >=0; $x--) {
           echo'<article class="content-square" >';
+          echo "<a href='" . $xml->post[$x]->link . "' title='Read my blog post - " . $xml->post[$x]->title . "' ><img src='". $xml->post[$x]->image ."' width='100%' ></a>";
           echo"<a href='" . $xml->post[$x]->link . "' ><h2>". $xml->post[$x]->title ."</h2></a>";
           echo substr($xml->post[$x]->desc, 0, 200);
           echo'<a href="' . $xml->post[$x]->link . ' "><div class="btn"> ' . $xml->post[$x]->title . '</div></a>';

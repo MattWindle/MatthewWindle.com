@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700');
 
 header, section, footer, nav, main, article, figure {
     display: block;
@@ -104,6 +103,11 @@ body{
       }
     }
   }
+  &.post-page{
+    aside{
+      display: none;
+    }
+  }
 }
 
 .dark-title-block, .light-title-block{
@@ -176,7 +180,7 @@ body{
     margin-right:20px;
     font-size: 1.8rem;
     margin-bottom: 20px;
-    width: 320px;
+    width: 550px;
     transition: all 0.55s ease-in-out;
     &:hover{
       background-color: $tertiaryColor;
@@ -220,11 +224,14 @@ body{
   .content-square{
     background-color: $tertiaryColor;
     width: 100%;
-    min-height: 300px;
+    min-height: 550px;
     padding: 20px;
     margin: 10px 0px;
     border-top: 4px solid $white;
     position: relative;
+    img{
+      margin-bottom: 20px;
+    }
     a{
       text-decoration: none;
       color: $primaryColor;
