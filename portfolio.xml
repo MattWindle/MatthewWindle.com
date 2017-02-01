@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portfolio>
+  <post>
+    <title>Dynamic Pub Menu</title>
+    <desc><![CDATA[
+    <p>Another second year project in which a dynamic pub menu was created using JavaScript and JSON</p>]]></desc>
+    <link>http://matthewwindle.com/work/pubmenu/</link>
+  </post>
+
+  <post>
+    <title>Rock, Paper, Scissors Game</title>
+    <desc><![CDATA[
+    <p>A RPS game created in JavaScript, where the user can select Rock, Paper or Scissors and play against the computer.</p>]]></desc>
+    <link>http://matthewwindle.com/work/rps/</link>
+  </post>
+  <post>
+    <title>Media Making Project</title>
+    <desc><![CDATA[
+    <p>This website was created to showcase my second year media making project.</p>]]></desc>
+    <link>http://matthewwindle.com/work/mediamaking/</link>
+  </post>
+  <post>
+    <title>JavaScript Cart Total</title>
+    <desc><![CDATA[
+    <p>A uni project where the goal was to create a shopping cart that calculated up the items the user selected.</p>]]></desc>
+    <link>http://matthewwindle.com/work/shoppingcart/</link>
+  </post>
+  <post>
+    <title>JavaScript Calculator</title>
+    <desc><![CDATA[
+    <p>A simple JavaScript Calculator created from year 2 lectures notes.</p>]]></desc>
+    <link>http://matthewwindle.com/work/calcapp/</link>
+  </post>
+  <post>
+    <title>Year 2 Web Project</title>
+    <desc><![CDATA[
+    <p>A recreation of the infomation communications website aimed at students and parents.</p>]]></desc>
+    <link>http://webdev.matthewwindle.com/</link>
+  </post>
+</portfolio>

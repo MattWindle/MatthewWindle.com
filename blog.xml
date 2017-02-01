@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blog>
+  <post>
+    <title>The Industry</title>
+    <date>10th Oct 2016</date>
+    <author>Matthew Windle</author>
+    <content>
+      <![CDATA[
+
+      <h3>So you want to be part of the digital industry?</h3>
+      <p>Good, because it is one of the biggest growing industries in the UK right now. </p>
+
+      <p>The digital industry has grown quite a lot in the last 12 months, 84% in fact and if you are a developer then this is great news for you as the development side alone has grown over a quarter in the last year. Not only has the industry grown but so has the need for experienced developers. Over the last year the developer role was in demand by nearly two thirds of the market making it a fantastic opportunity for young people to get into. Along side all this the “Digital Tech Industries are a key contributor to the UK’s economy, growing faster in turnover, GVA and productivity than the rest of the economy” <a href="/docs/Tech-Nation.php" >(Tech Nation,</a> 2016, p.6). So becoming a developer isn't only good for yourself but it is helping the economy too.</p>
+
+      <figure>
+        <img src="/dist/images/developer-graph.png" alt="Pie chart showing how much developers are needed in the market." >
+        <figcaption>Pie chart showing how much developers are needed in the market.</figcaption>
+      </figure>
+
+      <h3>What does it take to become a good developer? </h3><br>
+
+      <p>Well according to the <a href="/docs/Skills-Summit.pdf" title="Read the Skills Summit report (pdf)" >Skills Summit</a> report the tech that is being used the most in the industry is PHP and JavaScript which to me is no surprise as these are fundamental to becoming a leading developer in the fast paced industry. Knowing these statistics gives me a great insight into what future employers are looking for. It also helps me keep focused on learning PHP and JavaScript as having these skills in my toolbox will give me an edge when searching for a job in the future. </p>
+
+      <figure>
+        <img src="/dist/images/popular-tech.png" alt="A graph showing what web languages are being used." >
+        <figcaption>A graph showing what web languages are being used.</figcaption>
+      </figure>
+
+      <h4>But it is not just coding skills that matter.</h4><br>
+      <p>From a blog post over at <strong><a href="https://www.netguru.co/blog/9-soft-skills-every-web-developer-should-master">netgeru</a></strong> is it clear that web developers lack in many soft skills. These are even the simplest ones such as communication. This is a big one, as from my experience in any type of business the lack of communcation skills can be costly. In the digital industry it is common that you will have to communcate with colleges, this could be in the form of a meeting where a new project is being outlined, or simply asking for help on a particular bit of code. Then comes the clients, again you will more than likely have to speak to a client at some point (unless you're a mind reader), but this can become rather tricky. As Chris Meier
+      points out</p>
+      <blockquote>
+        <img src="/dist/images/icons/quote.svg" alt="quote marks">
+        <p>Communicating with clients can prove to be particularly tough, since you may find yourself having to explain highly technical concepts to non-technical people. And while your colleagues and peers have no trouble understanding industry jargon, don’t assume your clients will too.</p>
+      </blockquote><br>
+
+      <h3>How much does a developer get paid?</h3>
+
+      <p>Well lucky for developers they were in the top 3 of jobs that had the biggest pay rise last year which resulted in some developers receiving a 20% rise. On the subject of pay a developer has a excellent rate of pay within the digital industry. A junior developer can see an average salary of around 21k and this can almost double when you become a senior. I don’t know about you but this sounds good to me, and defiantly keeps me motivated whilst studying. It also helps me keep on top of my game whilst learning more skills outside of university. University will teach you the fundamentals of becoming a developer and what is trending in the industry right now, but to really become a good developer it takes time and effort not just a degree. </p>
+
+      <figure>
+        <img src="/dist/images/wages.png" alt="The average salary for developers" >
+        <figcaption>The average salary for developers.</figcaption>
+      </figure>
+
+      <p>Another reason for me to get excited about future employment is that 80% of companies within the industry recruit graduates and 69% of those are graduate schemes. Alongside this, employers in my local area are more likely to employ graduates from Manchester Metropolitan University. </p>
+
+      <h3>To summerise</h3>
+      <p>It is clear to see that the digital industry is growing at a rate in where work has to be sourced from other countries. This should be an oppotunity our country should take advantage of by introducing development skills at a young age and through high school so it gives people that head start to a career in the digital industry. </p>
+      <p>As long as developers keep on working on there skills in their own time and brush up on their soft skills then they will be more than ready for a long career in the digital industry.</p>
+      <div class="source-links">
+      <h3>Sources</h3>
+        <p>Chris Meier. (2016). <span class="italic">9 Soft Skills Every Web Developer Should Master.</span> Available: <a href="https://www.netguru.co/blog/9-soft-skills-every-web-developer-should-master">https://www.netguru.co/blog/9-soft-skills-every-web-developer-should-master.</a> Last accessed 1st Nov 2016.<p>
+        <p><a href="/docs/Tech-Nation.pdf" title="download Tech Nation Report (pdf)">Tech Nation Report</a></p>
+        <p><a href="/docs/Skills-Summit.pdf" title="download Skills Summit Report (pdf)">Skills Summit Report</a></p>
+      </div>
+
+      ]]>
+    </content>
+    <caption><![CDATA[<p> So you want to be part of the digital industry? Good, because it is one of the biggest growing industries in the UK right now.</p>]]> </caption>
+    <link>/blog/the-industry.php</link>
+  </post>
+  <post>
+    <title>Building my portfolio</title>
+    <date>20th Oct 2016</date>
+    <author>Matthew Windle</author>
+    <content>
+      <![CDATA[
+      <h3>The start of a project</h3>
+      <p>When it comes down to starting a project one of the first things I do is figure out what the website is going to be used for, what’s the aim of the website. This one was easy enough, it was to create a website to showcase any previous web projects that I had done and my academic blog posts. </p>
+
+      <p>Secondly I think about the structure of the website, the pages it requires etc. I normally use excel for this as it doesn’t need to be anything to fancy. Site structure is also something to consider as <a href="https://yoast.com/about-us/joost-de-valk/">Joost de Valk</a> founder of <a href="https://yoast.com/">Yoast SEO</a> says</p>
+
+      <blockquote>
+        <img src="/dist/images/icons/quote.svg" alt="quote marks">
+        <p>A good site structure is a requirement for Search Engine Optimization. It allows both your users and search engines to find content within your site more easily. A good structure is well categorized, and pages within it only link to other pages on the same topic.” </p>
+      </blockquote><br>
+
+      <figure>
+        <img src="/dist/images/site-structure.png" alt="Website structure for showing the paths between links for matthewwindle.com" >
+        <figcaption>The Website structure for matthewwindle.com</figcaption>
+      </figure>
+      <p>After the structure has been decided I normally look for websites similar to the website subject for inspiration. A quick search of the type of website you are creating will return many results. I normally stumble across <a href="http://www.creativebloq.com/">creativeblog.com</a> or <a href="http://www.awwwards.com/websites/portfolio/">awwwards.com</a> which both have a great selection of websites to help with your design.</p>
+
+      <h3>The design process</h3>
+      <p>The initial design process usually lasts around an hour where I simply scribble down wireframes on a piece of paper. This helps me get a rough idea of what I want from the website in terms of the appearance and find that it’s the quickest way.</p>
+
+      <p>Once I have decided on a design that I am happy with I will make a more detailed design which is normally carried out in either <a href="https://www.sketchapp.com/">Sketch 3</a> or <a href="http://www.adobe.com/uk/products/photoshop.html" >Photoshop CC</a>. I like to use both of these programs for different reasons. Sketch 3 for me has a more simplistic GUI and limited in features but this is not a disadvantage at all and I normally use Sketch for more simple designs. </p>
+
+      <figure>
+        <img src="/dist/images/design.png" alt="Initial design for my portfolio" >
+        <figcaption>Initial design for my portfolio</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/dist/images/typography.png" alt="Typography choices for my portfolio" >
+        <figcaption>Typography choices for my portfolio</figcaption>
+      </figure>
+
+      <p>As published by Ofcom's 2015 Communications Market Report the UK is now a smartphone society with</p>
+
+      <blockquote>
+        <img src="/dist/images/icons/quote.svg" alt="quote marks">
+        <p>(33%) of internet users see their smartphone as the most important device for going online, compared to 30% who are still sticking with their laptop.</p>
+      </blockquote><br>
+
+      <p>With this in mind I chose to adapted a mobile first design and code base so all the main styles are targeting the mobile view port. This has many benefits, one being that the design ideas will revolve around the mobile viewport which is considerably smaller than a laptop. This helps me think more about the site layout as all elements will be vertically aligned rather the the traditional horizontal layout you see on a desktop.</p>
+
+      <h3>The fun bit – coding the website</h3>
+      <p>So the design has been decided, it’s time to start coding the website. The start of my portfolio started with me initiating <a href="http://gulpjs.com/" title="External link to Gulpjs.com" >GULP</a> within the project folder. This will download the required modules for the project which will be used to compile my <a href="http://sass-lang.com/" title="External link to sass-lang.com" >SASS/SCSS</a> files and minify the compiled CSS and JavaScript files.</p>
+
+        <figure>
+          <img src="/dist/images/sasscode.png" alt="Example of using SCSS" title="Example of using SCSS" >
+          <figcaption>Example of using SCSS.</figcaption>
+        </figure>
+
+      <p>One feature of SASS that I find most useful is being able to use variables within the code. So one of the first things I do is write the variables for my colour palette. This saves me time throughout the project as I don’t have to remember the colour codes, just the variable names.</p>
+
+      <figure>
+        <img src="/dist/images/color-variable.png" alt="Example of using variables in SCSS" title="Example of using variables in SCSS" >
+        <figcaption>Example of using variables in SCSS.</figcaption>
+      </figure>
+
+      <p>Another great feature of using SCSS are <a href="http://sass-lang.com/guide#topic-6">mixins</a>. Mixins allow you to store blocks of code within a variable that can be later used as an include in the project. For my portfolio I used flexbox so I used the mixins to store the code for flexbox attributes and all the vendor prefixes. </p>
+
+      <figure>
+        <img src="/dist/images/mixins2.png" alt="Mixins that are used to store blocks of code." >
+        <figcaption>Mixins that are used to store blocks of code.</figcaption>
+      </figure>
+
+      <p>These are all in separate SCSS files that are imported into the main SCSS file and compiled and minified into a CSS. Doing this allows the project to keep organised by keeping meaningful styles in separate files such as colours, fonts, and any global styles. </p>
+
+      <p>For my portfolio website I decided to use XML to store the data of the blog posts and the content for my work. I decided to use XML of the simplicity of the code structure. I didn’t want to have all the content contained within the HTML so combining the XML with a PHP loop I was able to repeat blocks of code more efficiently. </p>
+
+      <figure>
+        <img src="/dist/images/php-loop.png" alt="Mixins that are used to store blocks of code." >
+        <figcaption>Mixins that are used to store blocks of code.</figcaption>
+      </figure>
+
+      <p>With this method I am able to keep the page structure contained within one file and the content within another making editing really easy. It also keeps an option open for future development for a custom CMS system to update the XML.</p>
+
+      <h3>Sources</h3>
+      <div class="source-links">
+        <p>Ofcom. (2015). <span class="italic">UK now a smartphone society.</span> Available:<a href="https://www.ofcom.org.uk/about-ofcom/latest/features-and-news/uk-now-a-smartphone-society" > https://www.ofcom.org.uk/about-ofcom/latest/features-and-news/uk-now-a-smartphone-society. </a> Last accessed 8th Nov 2016.</p>
+
+        <p>Joost de Valk. (2016). <span class="italic">Intelligent site structure for better SEO. </span> Available: <a href="https://yoast.com/site-structure-seo/" >https://yoast.com/site-structure-seo/.</a> Last accessed 8th Nov 2016.</p>
+      </div>
+
+      ]]>
+    </content>
+    <caption><![CDATA[<p>When it comes down to starting a project one of the first things I do is figure out what the website is going to be used for, what’s the aim of the website.</p>]]></caption>
+    <link>/blog/building-my-portfolio.php</link>
+  </post>
+  <post>
+    <title>Performance and optimisation</title>
+    <date>27th Oct 2016</date>
+    <author>Matthew Windle</author>
+    <content>
+      <![CDATA[
+
+      <h3>It's not the end of the project yet</h3>
+      <p>So, the website is finished, everything looks awesome. One question, how well does it perform? </p>
+
+<p>It’s all good having a website that looks good, but it’s no good if firstly, no one can find it and secondly, when people find it it takes a week to load. Luckily there are some cool tricks and tips that can help all of this. </p>
+
+<p>Below I have outline some simple techniques that can make sure your website(s) help not only yourself as a developer, but your visitors too! </p>
+
+  <h3>Code validation</h3>
+  <p>Making sure you code validates is a crucial part of making your website. As outlined by W3C’s <a href=" https://validator.w3.org/docs/why.html" title="Read Why Validate by W3C" >Why Validate </a> document “Validation is a sign of professionalism”. Imagine you are a freelance website developer and your website which helps drive your business doesn’t validate, this may cost you a client in the future.</p>
+
+  <p>If you are sat there wondering “how do I know if my website validates or not” W3C have you covered with there <a href="https://validator.w3.org/ " title="W3C HTML Validation Tool" >HTML Validation Tool.</a> The tool allows you to test via URL, file upload or direct code. The report then simple shows what lines have an error if any.</p>
+
+
+  <figure>
+    <img src="/dist/images/code-validation.png" alt="HTML code validation using W3C validation tool" >
+    <figcaption>HTML code validation using W3C validation tool.</figcaption>
+  </figure>
+
+<h3>Page optimisation</h3>
+<p>Does all you code validate? Great, lets move on to optimising the page.</p>
+<p>If you have read my other blog post <a href="/blog/building-my-portfolio.php" title="read my other blog post building my portfolio">building my portfolio</a> you will know that more and more people are viewing the web on a mobile device. Baring this in mind most users will have a limited data plan, so every time they visit a web page it is costing them to see your content. </p>
+<h4>What can you do to help? </h4><br>
+
+<p>Well like the code validation tool there is a tool to check how well your website performs in speed and user experience. Google provide the <a href="https://developers.google.com/speed/pagespeed/insights/" >PageSpeed Insights </a>. All you need to do is provide the URL of the website you want to test and you receive a detailed report outlining how the page can be more optimised. </p>
+<figure>
+  <img src="/dist/images/google-speedtest.png" alt="Google PageSpeed Insight results" >
+  <figcaption>Google PageSpeed Insight results</figcaption>
+</figure>
+
+<p>The report gives a rating from 0 to 100 (100 being the best) in speed and user experience. Along side this it gives you tips on how to increase your score such as minifying your code files, compressing your website files and optimising any images. At the end of the report the tool provides a link where you can download the files that will help with page speed such as the optimised images or minified code.</p>
+
+
+<h3>SEO integration</h3>
+<p>Lastly, but not the least important is SEO integration, Search Engine Optimisation is key to where you rank on search engines such as Google. </p>
+<p>Why is SEO important, well as mention it can determine where you lie within Google rankings so this could bring you more business if you are in the top search results. As mentioned in a blog post over at <a href="https://www.reliablesoft.net/what-is-search-engine-optimization-and-why-is-it-important/" title="Read the blog post at reliablesoft.net">reliablesoft.net </a> </p>
+
+<blockquote>
+  <img src="/dist/images/icons/quote.svg" alt="quote marks">
+  <p>SEO is not only about search engines but good SEO practices improve the user experience and usability of a web site.</p>
+</blockquote>
+
+<p>With this being said I can totally agree as SEO includes some of the coding basics which many forget such as adding alt tags to images and titles to links.</p>
+
+<p>A tool that I have recently been using is <a href="https://www.screamingfrog.co.uk/seo-spider/" title="Visit Screaming Frog SEO Spider Tool" >Screaming Frog SEO</a> checker which can be downloaded for Mac and Windows. The tool checks any website (max of 500 pages for the free version) for missing elements such as alt text and image size.</p>
+
+<figure>
+  <img src="/dist/images/screamingfrog.png" alt="Screaming Frog SEO Spider Tool " >
+  <figcaption>Screaming Frog SEO Spider Tool</figcaption>
+</figure>
+<h3>Sources</h3>
+<div class="source-links">
+  <p>Alex Chris. (2013). <span class="italic">What is search engine optimization and why is it important.</span> Available: <a href="https://www.reliablesoft.net/what-is-search-engine-optimization-and-why-is-it-important/">https://www.reliablesoft.net/what-is-search-engine-optimization-and-why-is-it-important/.</a> Last accessed 14 Nov 2016.</p>
+  <p>W3C. (2009). <span class="italic">Why Validate?</span>. Available: <a href="https://validator.w3.org/docs/why.html">https://validator.w3.org/docs/why.html.</a> Last accessed 14 Nov 2016.</p>
+</div>
+
+          ]]>   </content>
+    <caption><![CDATA[<p>It’s all good having a website that looks good, but it’s no good if firstly, no one can find it and secondly, when people find it it takes a week to load.</p>]]> </caption>
+    <link>/blog/performance-and-optimisation.php</link>
+  </post>
+
+  <!-- DEFAULT POST TEMPLATE -->
+  <!-- <post>
+    <title>Post Title</title>
+    <date>Post Date</date>
+    <author>Matthew Windle</author>
+    <content>
+      <![CDATA[
+      <p>Blog post content</p>
+          ]]>   </content>
+    <link>/blog/</link>
+  </post> -->
+</blog>

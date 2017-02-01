@@ -1,0 +1,90 @@
+$primaryFont: 'Josefin Sans', sans-serif;
+$secondaryFont:  'Source Sans Pro', sans-serif;
+
+body{
+    font-size: 1rem;
+    font-family: $primaryFont;
+}
+
+h1, h2 ,h3{
+font-family: $primaryFont;
+margin: 0;
+padding: 0;
+}
+h1{
+  font-size: 4rem;
+}
+h2{
+ font-size: 3.25rem;
+}
+h3{
+  font-size: 2.75rem;
+}
+h4{
+  font-size: 2.25rem;
+}
+h1, h2, h3, h4{
+  color: $secondaryColor;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+
+p, span, li{
+  font-family: $primaryFont;
+  font-size: 2rem;
+  line-height: 1.35em;
+  color: $primaryColor;
+  span{
+    color: $secondaryColor;
+    &.italic{
+    display: inline-block;
+    font-style: italic;
+  }
+  }
+}
+
+a{
+  font-size: 2rem;
+  text-decoration: none;
+  font-family:$primaryFont;
+  color: $secondaryColor;
+}
+input{
+  font-family: $primaryFont;
+}
+
+ul{
+  padding: 0;
+  color: $secondaryColor;
+
+  li{
+    list-style-type: none;
+    font-family: $primaryFont;
+    font-size: 1.8rem;
+    line-height: 1.35em;
+    color: $secondaryColor;
+    &.bullet-list{
+      list-style-type: circle !important;
+    }
+  }
+}
+blockquote{
+  font-style: italic;
+  border-left: 8px solid $secondaryColor;
+  padding: 0px 0 0px 10px;
+  position: relative;
+  margin-top: 30px;
+  img{
+    display: inline-block;
+    position: absolute;
+    margin-bottom: 10px;
+    max-width: 30px;
+    height: 30px;
+    top: -20px;
+    left: 10px;
+  }
+  p{
+    padding-top: 20px;
+  }
+}

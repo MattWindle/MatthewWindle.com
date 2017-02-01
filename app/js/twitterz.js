@@ -1,0 +1,1 @@
+var matthewwindle26 = { "profile": { "screenName": 'matthewwindle26' }, "domId": 'twitter-widget', "maxTweets": 1, "enableLinks": true, "showImages": false, "showTime": false, "showUser": false, "showRetweet": false, "lang": 'en' }; twitterFetcher.fetch(matthewwindle26);

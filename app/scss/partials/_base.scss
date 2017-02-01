@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700');
+
+header, section, footer, nav, main, article, figure {
+    display: block;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  color: $black;
+  font-size: 10px;
+  box-sizing: border-box;
+}
+html{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+body{
+  background-color: $primaryColor;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.col-50{
+  width: 100%;
+  &:nth-of-type(1){
+    padding: 30px 30px;
+  }
+}
+.two-col{
+  @include flex;
+  @include flex-column;
+  .dark-section:nth-of-type(1){
+    padding-bottom:20px;
+  }
+}
+.skip-links-wrapper{
+  display: none;
+}
+.container{
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  .blog-post{
+    background-color: rgba($primaryColor, 0.75) !important;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    a{
+      text-decoration: underline;
+      font-weight: 600;
+      color: $secondaryColor;
+    }
+    figure{
+      margin-bottom: 25px;
+      figcaption{
+        font-size: 1.8rem;
+        background-color: $secondaryColor;
+        color: $primaryColor;
+        padding: 15px 10px 10px 10px;
+        margin-top: -5px;
+      }
+      img{
+        width: 100%;
+      }
+    }
+    .source-links{
+      p, a, span{
+        font-size: 1.5rem !important;
+      }
+    }
+    .breadcrumbs{
+      border-bottom: 2px solid $secondaryColor;
+      a{
+        text-decoration: none;
+        transition: all 0.55s ease-in-out;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+    .blog-date{
+      font-size: 1.5rem;
+      width: 100%;
+      text-align: right;
+      padding-right: 20px;
+    }
+    .blog-footer{
+      padding-top: 20px;
+      border-top: 4px solid $secondaryColor;
+      @include flex;
+      @include flex-column;
+      @include flex-space-between;
+      .blog-button{
+        background-color: $secondaryColor;
+        display:block;
+        margin-bottom: 20px;
+        a{
+          display: block;
+          padding: 10px 20px;
+          color: $primaryColor;
+        }
+      }
+    }
+  }
+}
+
+.dark-title-block, .light-title-block{
+  background-color: $primaryColor;
+  padding: 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+  border-top: 4px solid $white;
+}
+.light-title-block{
+  background-color: $tertiaryColor;
+}
+.grey-section{
+  background-color: $tertiaryColor;
+  padding: 20px;
+
+  .top-of-page{
+    padding-top: 50px;
+  }
+}
+.dark-section{
+  background-color: $primaryColor;
+  padding: 20px 20px 150px 20px;
+  &.col-50{
+    a{
+      color: $secondaryColor;
+    }
+  }
+  a{
+    text-decoration: underline;
+    color: $secondaryColor;
+  }
+  h2.light-title-block{
+    color: $primaryColor;
+  }
+  h3{
+    margin-bottom: 20px;
+  }
+  p{
+    color: $secondaryColor;
+    line-height: 1.55;
+    margin-bottom: 20px;
+  }
+  h2.blog-sub{
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .cv-wrapper{
+    @include flex;
+    @include flex-row;
+    .cv-btn{
+      background-color: $secondaryColor;
+      padding: 15px 20px 10px 20px;
+      margin-right:20px;
+      font-size: 1.8rem;
+      transition: all 0.55s ease-in-out;
+      cursor: pointer;
+      &:hover{
+        background-color: $tertiaryColor;
+      }
+      a{
+        cursor: pointer;
+        color: $primaryColor;
+      }
+    }
+  }
+  .blog-post-min{
+    background-color: $secondaryColor;
+    padding: 10px 10px 5px 10px;
+    margin-right:20px;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    width: 320px;
+    transition: all 0.55s ease-in-out;
+    &:hover{
+      background-color: $tertiaryColor;
+    }
+    p{
+      color: $primaryColor;
+      padding: 0;
+      margin: 0;
+    }
+  }
+  &.sitemap{
+    a{
+      display: inline-block;
+      text-decoration: none;
+      margin-bottom: 10px;
+      color: $secondaryColor;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+    ul{
+      margin-left: 20px;
+      li{
+        list-style-type: inherit;
+        ul{
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+} //end of dark-section
+
+.blog-bg{
+  background-image: url(/dist/images/pattern-blog.png);
+  background-repeat: repeat;
+}
+.article-wrapper{
+  @include flex;
+  @include flex-column;
+  @include flex-wrap;
+  .content-square{
+    background-color: $tertiaryColor;
+    width: 100%;
+    min-height: 300px;
+    padding: 20px;
+    margin: 10px 0px;
+    border-top: 4px solid $white;
+    position: relative;
+    a{
+      text-decoration: none;
+      color: $primaryColor;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+    h2, p, h3{
+      color: $primaryColor;
+      margin-bottom: 10px;
+    }
+    h3{
+      font-size: 2.2rem;
+    }
+    p{
+      padding-bottom: 20px;
+    }
+    .btn{
+      text-align: center;
+      width: 90%;
+      font-family: $primaryFont;
+      padding: 10px;
+      background-color: $primaryColor;
+      border: none;
+      margin-top: 20px;
+      margin-right: 2%;
+      border-top: 4px solid $white;
+      float: left;
+      position: absolute;
+      bottom: 20px;
+      overflow-x: hidden;
+      color: $secondaryColor;
+      font-size: 2rem;
+      text-decoration: none;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+    .overlay{
+      width: calc(100%);
+      height: calc(100%);
+      background-color: rgba($primaryColor, 0.5);
+      position: absolute;
+      top: 0;
+      left:400px;
+      padding: 20px;
+      transition: all 0.55s ease;
+      opacity: 0;
+      p{
+        color: $secondaryColor;
+        margin-top: 50px;
+      }
+    }
+  }
+}
+form.main-form{
+  @include flex;
+  @include flex-column;
+  width: 100%;
+  label{
+    font-size: 2rem;
+    color: $secondaryColor;
+    margin: 10px 2%;
+  }
+  input, textarea{
+    width: 95%;
+    max-width: 95%;
+    font-size: 2rem;
+    line-height: 2;
+    margin: 0 2%;
+    font-family: $primaryFont;
+    padding: 0 10px;
+    color: $primaryColor;
+    &:focus{
+      outline: 5px solid $tertiaryColor;
+    }
+  }
+  input[type="submit"]{
+    border: none;
+    margin-top:20px;
+    padding: 0;
+    font-weight: 600;
+    background-color: $tertiaryColor;
+    border-top: 4px solid $white;
+    transition: all 0.55s ease;
+    &:hover{
+      cursor: pointer;
+      background-color: darken($tertiaryColor, 10);
+    }
+  }
+  textarea{
+    height: 200px;
+    max-height: 200px
+  }
+}
+#instafeed{
+  @include flex;
+  @include flex-row;
+  @include flex-wrap;
+  margin-bottom: 10px;
+  a{
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+    &:hover{
+      transform: scale(1.0455);
+    }
+  }
+  .insta-img{
+    width: calc(12.5rem + 1.2vw);
+    margin: 10px;
+    border: 4px solid $tertiaryColor;
+    border-bottom: none;
+    img{
+      width: 100%;
+    }
+  .insta-overlay{
+    @include flex;
+    @include flex-row;
+    @include flex-align-center;
+    width: 100%;
+    background-color: $tertiaryColor;
+    margin-top: -5px;
+    img{
+      width: 20px;
+      margin-left: 5px;
+    }
+    p{
+
+      text-decoration: none;
+      font-size: 2rem;
+      padding: 0;
+      margin: 0;
+      margin: 5px 0 0 10px;
+      color: $primaryColor;
+
+    }
+  }
+  }
+}

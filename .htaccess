@@ -1,0 +1,15 @@
+#get rid of bad bots
+RewriteEngine on
+RewriteCond %{HTTP_USER_AGENT} ^BadBot [OR]
+RewriteCond %{HTTP_USER_AGENT} ^EvilScraper [OR]
+RewriteCond %{HTTP_USER_AGENT} ^FakeUser
+RewriteRule ^(.*)$ http://go.away/
+Allow from all
+
+ErrorDocument 404 /404.php
+
+# BEGIN GZIP
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+</ifmodule>
+# END GZIP
