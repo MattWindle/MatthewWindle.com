@@ -38,6 +38,8 @@
         for($x = count($port_xml)-3; $x < count($port_xml); $x++) {
           //counts the amount of posts
           echo'<article class="content-square" >';
+          echo "<a href='" . $port_xml->post[$x]->link . "' title='Read my blog post - " . $port_xml->post[$x]->title . "' ><img src='". $port_xml->post[$x]->image ."' width='100%' ></a>";
+
           echo"<a href='" . $port_xml->post[$x]->link . "'>
               <h2>". $port_xml->post[$x]->title ."</h2></a>";
           echo substr($port_xml->post[$x]->desc, 0, 120);
