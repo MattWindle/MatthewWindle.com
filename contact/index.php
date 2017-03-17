@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="description" content="Got an idea for a website then get in contact and lets make it a reality. ">
   <meta name="keywords" content="Web Developer, Matthew Windle, Contact, Get it touch, Website, chat, web tech, MMU">
-  <meta name="author" content="Matthew Windle">  <title>Contact | Matthew Windle</title>
+  <meta name="author" content="Matthew Windle">  <title>Contact | Matthew Windle - Web Developer</title>
   <link rel="stylesheet" type="text/css" href="/dist/css/main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="/dist/images/favicon.png" />

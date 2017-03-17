@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="description" content="Thank you page for when you send a message at matthewwindle.com">
   <meta name="keywords" content="web developer, Matthew Windle, Thank you, Manchester Metropolitan University, HTML5, PHP, JavaScript">
-  <meta name="author" content="Matthew Windle">  <title>Thank You | Matthew Windle</title>
+  <meta name="author" content="Matthew Windle">  <title>Thank You | Matthew Windle - Web Developer</title>
   <link rel="stylesheet" type="text/css" href="/dist/css/main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="/dist/images/favicon.png" />

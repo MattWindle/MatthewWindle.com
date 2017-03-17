@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="description" content="Matthew Windle is a junior front-end web development from Burnley who uses a mixture of HTML5, CSS3, JQuery and some PHP to create unique websites.">
   <meta name="keywords" content="Matthew Windle, web developer, Burnley, HTML5, CSS3, PHP, JavaScript">
-  <meta name="author" content="Matthew Windle">  <title>Home | Matthew Windle</title>
+  <meta name="author" content="Matthew Windle">  <title>Home | Matthew Windle - Web Developer </title>
   <link rel="stylesheet" type="text/css" href="/dist/css/main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="/dist/images/favicon.png" />
@@ -39,7 +39,6 @@
           //counts the amount of posts
           echo'<article class="content-square" >';
           echo "<a href='" . $port_xml->post[$x]->link . "' title='Read my blog post - " . $port_xml->post[$x]->title . "' ><img src='". $port_xml->post[$x]->image ."' width='100%' ></a>";
-
           echo"<a href='" . $port_xml->post[$x]->link . "'>
               <h2>". $port_xml->post[$x]->title ."</h2></a>";
           echo substr($port_xml->post[$x]->desc, 0, 120);

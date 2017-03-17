@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="description" content="Matthew Windle is a junior front-end web development who uses a mixture of HTML5, CSS3, JQuery and some PHP to create unique websites.">
   <meta name="keywords" content="">
-  <meta name="author" content="Matthew Windle">  <title>Sitemap | Matthew Windle</title>
+  <meta name="author" content="Matthew Windle">  <title>Sitemap | Matthew Windle - Web Developer</title>
   <link rel="stylesheet" type="text/css" href="/dist/css/main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="/dist/images/favicon.png" />

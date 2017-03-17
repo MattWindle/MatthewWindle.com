@@ -220,16 +220,287 @@
     <caption><![CDATA[<p>It’s all good having a website that looks good, but it’s no good if firstly, no one can find it and secondly, when people find it it takes a week to load.</p>]]> </caption>
     <link>/blog/performance-and-optimisation.php</link>
   </post>
-
-  <!-- DEFAULT POST TEMPLATE -->
-  <!-- <post>
-    <title>Post Title</title>
-    <date>Post Date</date>
+  <post>
+    <title>Different is not always better</title>
+    <date>15th Feb 2017</date>
     <author>Matthew Windle</author>
+    <image>/dist/images/blog-headers/changes.jpg</image>
     <content>
       <![CDATA[
-      <p>Blog post content</p>
-          ]]>   </content>
-    <link>/blog/</link>
-  </post> -->
+
+      <p>See the old website <a href="http://archive.matthewwindle.com/" title="link to old website" >here</a>
+
+      <h3>Optimising Code</h3>
+      <p>Having creating a website and having it peer marked by my tutors was an interesting task that I took part in. </p>
+      <p>When developing a website on your own can come with a few disadvantages, one of them is overlooking your own mistakes over and over. Having taken part in the peer marking session it was clear that my website was lacking in some areas. Although the mark I received was a high first there is always room for improvement and change. </p>
+      <p>Some of the main changes to the website were not visual changes but more towards how the website was coded which was having an impact on how the website performed. Some HTML elements were removed such as onclicks for links as this comes with a few drawbacks as the user can disable JavaScript which would stop the link from working. </p>
+      <p>From the feedback received it was noted that the website had a JavaScript file that was rather heavy. Upon inspection of the file 90% of the file was the JQuery Framework. When searching through to see what was dependant on JQuery it was around 40 lines of code from over 4500. </p>
+      <p>Taking into account that only 1% of the file is actually been used to manipulate the DOM it would be more efficient in both speed and resources to code the scripting without the JQuery framework.</p>
+
+      <h3>Visual Changes</h3>
+      <p>The visual changes are the ones that everyone can see, and what matters to most people when visiting a website.</p>
+      <p>When first creating the website I was trying to design something different to what I tend to see when I am browsing the web, so I change from the standard font-face was a place to start. When I was browsing the <a href="https://fonts.google.com/">Google Font</a> library for a font to use I was stunned to see the stats for the font <a href="https://fonts.google.com/specimen/Open+Sans">Open Sans</a>. At the time of searching a font, Open sans had over 29 billion (with a B) API requests over 19 Million websites in just one week.</p>
+
+      <figure>
+        <img src="/dist/images/open-sans-stats.jpg" alt="The stats from Google fonts for Open Sans " >
+        <figcaption>The stats from Google fonts for Open Sans </figcaption>
+      </figure>
+
+      <p>So I opted to use a less popular font to make mine feel more unique, although in hindsight this was not a choice that served me well. From the peer marking session, it was clear the font I had chosen (Josefin Sans) was not the best when it came to the legibility of the website. It was key this was sorted due to the website hosting many blog posts that I had written that I would not want to go unread due to a poor typeface.</p>
+
+      <p>I decided to use <a href="https://fonts.google.com/specimen/PT+Sans">PT Sans</a> another popular font from the list on Google Fonts and the difference it made when reading was incomparable.</p>
+
+      <figure>
+        <img src="/dist/images/changes-opt.jpg" alt="The stats from Google fonts for Open Sans " >
+        <figcaption>The stats from Google fonts for Open Sans </figcaption>
+      </figure>
+
+      <p>A few changes were also made within the CSS mainly in the media queries to make sure that elements displayed properly at all resolutions. This was main in the boxes where the content would disappear behind the button to read the post.</p>
+
+      <p>Another comment that was made was that the layout looked like it was put together with different elements with the box style layout. Although this hasn’t been changed on this revision on the website it has been noted and a redesign is underway.</p>
+
+          ]]>
+
+        </content>
+      <caption><![CDATA[<p>When developing a website on your own can come with a few disadvantages, one of them is overlooking your own mistakes over and over.</p>]]></caption>
+      <link>/blog/different-isnt-always-better.php</link>
+  </post>
+
+  <post>
+    <title>To git or not to git</title>
+    <date>10th March 2017</date>
+    <author>Matthew Windle</author>
+    <image>/dist/images/blog-headers/github.jpg</image>
+    <content>
+      <![CDATA[
+
+      <p>Not too long ago Git was a tool that I had only heard of and never quite used it. Main reasons being I didn’t know what benefits Git could offer and to be honest it looked really complicated to use as it commonly uses the command line, something I wasn’t familiar with using.</p>
+
+      <p>4 Months later and well I cannot do a project without incorporating Git into the workflow. It all started back in January 2017 when <a href="">Joe Nash</a> from GitHub joined us for a lecture. He began showing the basics of how to set up Git and uploading a project online to the GitHub website. </p>
+
+      <p>Joe managed to take away the fear of using GitHub and encouraged the class to take part in an interactive session. It was from there I really get a feel of how Git could be used to maintain and update websites.</p>
+
+      <h3>What is Git?</h3>
+      <p>A little history first, Git was first released in 2005 after a breakdown of a relationship between team behind Linux Kernel and the company BitKeeper. Linus Torvalds – the creator of Linux – developed a new tool that would be fast, have a simple design and fully distributed. With all of that and a decade later we have what we know as Git.</p>
+
+      <p>In a nutshell, Git is a version control system (VCS) and allows the same files to be tracked and worked on amongst multiple people. Git is mostly used in development such as websites or software but can also track other files as well.</p>
+
+      <p>Git does this through many different functions and features. The main one is that you and others can fork a repository and make updates without affecting the original copy. If you are working on a repo you can also branch off from the ‘master branch’ to make sure no changes are affecting the main copy. If the changes that are made work and or don’t cause issues elsewhere they can be merged with the master.</p>
+
+      <p>Finally, once the merge is complete with the master branch the project can then be pushed to the online repository for others to fork and make additional changes.</p>
+
+      <h3>The set-up</h3>
+      <p>Before using Git it must be install globally on the system, this is done different across all operating systems so the getting started on Git will get you up and running.</p>
+
+      <p><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" title="Getting started with Git" >Getting started with Git</a></p>
+
+      <p>Terminal: As I was mainly using Mac for git terminal was used to execute all the commands.</p>
+
+      <h3>Location</h3>
+      <p>You can view all the projects that I have used Git with on my <a href="https://github.com/MattWindle26" title="Matthew Windles' GitHub Profile">GitHub Account.</a></p>
+
+      <h3>How</h3>
+      <p>The first thing when that needs to be done when starting to use Git is to open Terminal and located the project folder.</p>
+
+      <figure>
+        <img src="/dist/images/CD.png" alt="Changing directory in Terminal using Git " >
+        <figcaption>Changing directory in Terminal using Git</figcaption>
+      </figure>
+
+      <p>Once the project folder has been selected Git can be initialised. This is done with a very quick and simple command</p>
+      <p class="command" >Git Init</p>
+
+      <figure>
+        <img src="/dist/images/git-init.png" alt="Initial Git in Terminal" >
+        <figcaption>Initial Git in Terminal</figcaption>
+      </figure>
+
+      <p>The Git Init command gets the folder ready and makes a new repository. A folder is also created within the directory called .git which contains all the information for the repo. </p>
+      <p>As the repo is currently only stored locally the next few steps will push the project online.</p>
+
+      <p>The next step in setting up git is to make the first commit of the repository and this is normally carried out with the command:</p>
+
+      <p class="command">git commit -m "first commit" </p>
+      <p>The breakdown of the command is basically saying that you want to commit a change in the repository, also it good to note that the text within the quotes is very useful. It can be used to see what changes others have made to the project as well as looking back through the repo history in case a rollback is needed.</p>
+
+      <figure>
+        <img src="/dist/images/first-commit.png" alt="Git first commit in terminal" >
+        <figcaption>Git first commit in terminal</figcaption>
+      </figure>
+
+      <p>The next part is how we tell Git where we want to store the repository online. You guessed it another command is needed:</p>
+      <p class='command' > git remote add origin https://github.com/MattWindle26/CSS-Grids.git </p>
+      <p>This command tells Git where to store the repo, an account is needed on GitHub.com to store them but don’t worry they are free.</p>
+
+      <p>The final step in getting Git ready is to push everything online. One more command, for now. </p>
+      <p class="command" > git push -u origin master</p>
+
+      <p>This command looks at the link specified in the previous command and send all the files over to GitHub ready to used later on in the project.</p>
+
+      <h3>Git Branches</h3>
+      <p>As mentioned before, Git has the ability to branch of from the master (main copy) and create a sub copy to make changes to. This can be done with the command:</p>
+
+ <p class="command">Git branch BRANCH_NAME</p>
+
+<p>Followed by </p>
+
+ <p class="command">Git checkout BRANCH_NAME</p>
+
+<p>These 2 command creates a new branch to work on and then the checkout makes sure that all the work carried out is down on that branch. </p>
+
+<p>There are also way to check what branch you are currently working on with the command</p>
+<p class="command" > Git Branch</p>
+<p>This will produce a result similar to this in the terminal window.</p>
+
+<figure>
+  <img src="/dist/images/show-branch.png" alt="Terminal showing git braches" >
+  <figcaption>Terminal showing git braches</figcaption>
+</figure>
+
+<p>The asterisks symbolises what branch is currently active, you can use Git Checkout to change to any of the other branches.</p>
+<h3>Adding to the repository</h3>
+<p>Once the project has got under way you will need to start adding your files to the repository, don’t worry, another command can help you through this process. This command is a simple as writing:</p>
+<p class="command" >Git add .</p>
+<p>This will take all the files in the directory and add them to the repository.</p>
+<h3>Evaluation</h3>
+<p>Over the past few months I have got to grips with using Git on my projects and has proven useful many times. I have accidently removed blocks of code that was then needed later on but with Git I was able to reverse the changes and retrieve the deleted code. GitHub also keeps a track of all the commits done which can be seen below. I only have experience with using Git on my own projects but look forward to using it within a working environment with other collaborators. <p>
+
+  <figure>
+    <img src="/dist/images/GitHub-squares.png" alt="GitHub Profile showing commits" >
+    <figcaption>GitHub Profile showing commits</figcaption>
+  </figure>
+
+  <h3>Sources</h3>
+  <div class="source-links">
+    <p>git.(No Date) Getting Started- A Short History of Git. [Online] [Date Accessed: 24th Feb] URL: <a href="https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git" >https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git</a></p>
+    <p>git.(No Date) Getting Started- Installing Git. [Online] [Date Accessed: 24th Feb]
+    URL: <a href=https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">https://git-scm.com/book/en/v2/Getting-Started-Installing-Git</a></p>
+  </div>
+
+
+
+
+
+
+       ]]>
+        </content>
+      <caption><![CDATA[<p>I didn’t know what benefits Git could offer and to be honest it looked really complicated to use as it commonly uses the command line.</p>]]></caption>
+      <link>/blog/to-git-or-not-to-git.php</link>
+  </post>
+
+
+
+  <post>
+    <title>The futures bright, the futures grids</title>
+    <date>12th March 2017</date>
+    <author>Matthew Windle</author>
+    <image>/dist/images/blog-headers/CSS-Grids.jpg</image>
+    <content>
+      <![CDATA[
+
+      <p><a href="http://grids.matthewwindle.com/final-page.php" >See my project that was created in CSS Grids</a></p>
+      <p>The main aim the project was to Create a fluid layout using CSS Grids that will be used to recreate my blog page from my portfolio. </p>
+
+      <p>The objectives that need to be completed in order to achieve the main aim are:<p>
+        <ul>
+          <li class="bullet-list">To research the benefits and any drawbacks of CSS Grids to identify good practice</li>
+          <li class="bullet-list">To learn the fundamentals of CSS Grid Layout </li>
+          <li class="bullet-list">To develop a fluid layout using the CSS grid layout method</li>
+        </ul><br>
+        <p>What are CSS Grids? Don’t we all ready have Grids in web design? What happens to Flexbox ?  Are all good questions and I intend to answer them all and more in this blog post.</p>
+
+<p>So, What are CSS Grids? Not to long ago I was asking myself the same question. In brief a CSS Grid is a layout system which functions in 2 dimensions – rows and columns. Comparing this to Flexbox which is mainly a 1 dimensional system which works left to right.  </p>
+
+<p>Looking back at the history of CSS layouts a lot of methods have been tried and for the most part of it have worked good enough. As mentioned by Chris House over at CSS-Tricks “First we used tables, then floats, positioning and inline-block, but all of these methods were essentially hacks and left out a lot of important functionality (vertical centering, for instance).”.</p>
+
+<p>Fast forward to present day and we have the beauty of using flexbox but as mentioned this is only useful for simple 1 dimensional layouts. </p>
+
+<h3>So is this the end of flexbox? </h3>
+
+<p>Not at all in fact from my time using CSS Grids, using them both together actually gave some really good results. </p>
+
+<p data-height="350" data-theme-id="dark" data-slug-hash="LWjmyd" data-default-tab="css,result" data-user="MattWindle" data-embed-version="2" data-pen-title="Grids & Flex" class="codepen">See the Pen <a href="http://codepen.io/MattWindle/pen/LWjmyd/">Grids & Flex</a> by Matthew Windle (<a href="http://codepen.io/MattWindle">@MattWindle</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script><br>
+
+<p>As previously mentioned Flexbox is great for items that need to be postioned left to right, yes, the order can be changed some what but there position within the DOM pretty much stays the same, unlike with CSS Grids.</p>
+
+<p>With the introduction of CSS Grids into the workflow it solves a lot of problems that have otherwise had hacks to create a specific layout.</p>
+
+<h3>Can we use CSS Grids now? </h3>
+
+<p>Another great question and well that all depends what browser you use and how up-to-date it is. Firefox v52+ is the only browser currently to date which supports CSS Grids out of the box. If you are on Google Chrome, you can enable “experimental web platform features” by navigating to “chrome://flags”. This method also works in Opera “opera://flags”. With Internet Explorer versions 10 and 11 support Grids, but unfortunately its an old implementation with outdated syntax.</p>
+
+<p>Using Caniuse will give you the best information when looking a browser support.</p>
+
+
+<figure>
+  <img src="/dist/images/caniuse.png" alt="Browser support for CSS Grids" >
+  <figcaption>Browser support for CSS Grids</figcaption>
+</figure>
+
+<h3>The Set-Up</h3>
+
+<p>While learning CSS Grids and developing the website a number of methods and tools were used.</p>
+
+<p>Text Editor: Atom, its simple easy to use, has great customisable options, what else is needed. </p>
+<p>HTML, CSS & PHP: These were main key languages used to create the project. </p>
+<p>GitHub: In this project GitHub was used as a safety net and allowed me to experiment on the website knowing I could revert back to an earlier state if anything broke during testing.</p>
+
+<p><a href="https://github.com/MattWindle26" title="Matthew Windle GitHub">Matthew Windle GitHub</a></p>
+
+
+<h3>Location</h3>
+
+<p>My progression through the project can be found on <a href="https://github.com/MattWindle26" title="Matthew Windle GitHub">GitHub.</a></p>
+<p><a href="http://grids.matthewwindle.com/final-page.php" >My final project.</a></p>
+
+<h3>How</h3>
+
+<p>When I first started researching CSS Grids it was quite difficult to find any tutorials to get me started as it is so new. So I called upon CSS-Tricks and they didn’t let me down, a guy by the name of Chris House has put together an amazing guide which I can highly recommend to anyone want to learn Grids.</p>
+
+<p>I spent a good afternoon, fuelled by a few cups of coffee reading through the documentation and getting to grips to the new CSS Grids syntax. To begin with I enabled the experimental web platform features which set up Google Chrome ready for CSS Grids.</p>
+
+<p>The first task I did was create a very simple 2 x 2 layout, the parent element gets the display grid property. Inside the container 2 rows and 2 columns were created which were specified using grid-template-columns and grid-row. In this instance the columns have a fixed width of 200px and the rows are set to auto. A gap has also been set for the column and row of 20px which is like putting a margin in-between the child elements.</p>
+
+<p data-height="350" data-theme-id="dark" data-slug-hash="perZRG" data-default-tab="css,result" data-user="MattWindle" data-embed-version="2" data-pen-title="2x2 CSS Grid" class="codepen">See the Pen <a href="http://codepen.io/MattWindle/pen/perZRG/">2x2 CSS Grid</a> by Matthew Windle (<a href="http://codepen.io/MattWindle">@MattWindle</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script><br>
+
+<p>The layout can be taken further. A new unit has been introduced with CSS Grids which is fractions and is marked up using fr in CSS. The fraction unit can calculate the space it has and divide it amongst the fractioned columns. So for example if the parent container has a width of 400px with 2 columns one being 3fr and the 1fr would split down to 300px and 100px widths. </p>
+
+<p data-height="350" data-theme-id="dark" data-slug-hash="OpxJBE" data-default-tab="css,result" data-user="MattWindle" data-embed-version="2" data-pen-title="2x2 CSS Grid (Fr)" class="codepen">See the Pen <a href="http://codepen.io/MattWindle/pen/OpxJBE/">2x2 CSS Grid (Fr)</a> by Matthew Windle (<a href="http://codepen.io/MattWindle">@MattWindle</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script><br>
+
+<p>Another way a grid can be laid out is using Grid-Template-Areas, personally my favourite one. Grid-Template-Areas allows you give the grid child elements a name (sort of like an ID) which can be used in the Grid-Template-Areas to position the element. </p>
+
+<p data-height="350" data-theme-id="dark" data-slug-hash="RpLPer" data-default-tab="css,result" data-user="MattWindle" data-embed-version="2" data-pen-title="CSS Grids - Grid Template Areas" class="codepen">See the Pen <a href="http://codepen.io/MattWindle/pen/RpLPer/">CSS Grids - Grid Template Areas</a> by Matthew Windle (<a href="http://codepen.io/MattWindle">@MattWindle</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script><br>
+
+<p>As seen in the codepen you can specify how many tracks the element will span across. So in a 3 column layout having “header” on the top line of the template 3 times will span the header across column one to column three.</p>
+
+<p>Having played around with CSS Grids and understand how they worked I took my skills and recreated my personal blog page which has made massive improvements on the design and how the posts are displayed.</p>
+
+<h3>Evaluation</h3>
+
+<p>Getting to grips using CSS Grids has been an awesome experience and personally really looking forward to the future of web development. Already having a powerful tool such as flexbox with the addition of CSS Grids is going to make a real difference in the future of the web and how designers can look at making more advanced layouts.</p>
+
+<p>The only downside is that it is not widely supported to date, but it won’t be long until it is in the bag of tricks that we can use.</p>
+
+<h3>Sources</h3>
+<div class="source-links">
+  <p>Andrew, R. (2017). Grid by Example. [online] Gridbyexample.com. Available at: <a href="http://gridbyexample.com/" >http://gridbyexample.com/ </a>[Accessed 11 Mar. 2017].
+</p>
+  <p>House, C. (2017). A Complete Guide to Grid | CSS-Tricks. [online] CSS-Tricks. Available at: <a href="https://css-tricks.com/snippets/css/complete-guide-grid/" > https://css-tricks.com/snippets/css/complete-guide-grid/ </a> [Accessed 13 Mar. 2017].
+</p>
+
+</div>
+
+
+
+
+
+       ]]>
+        </content>
+      <caption><![CDATA[<p>What are CSS Grids? Don’t we all ready have Grids in web design? What happens to Flexbox ?  Are all good questions and I intend to answer them all and more in this blog post.</p>]]></caption>
+      <link>/blog/the-futures-bright-the-futures-grids.php</link>
+  </post>
 </blog>

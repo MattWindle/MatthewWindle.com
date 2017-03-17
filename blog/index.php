@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="description" content="Blog posts written by Matthew Windle from his life working in the digital industry">
   <meta name="keywords" content="Web Developer, Blog, Matthew Windle, Digital Agency, portfolio, performance">
-  <meta name="author" content="Matthew Windle">  <title>Blog | Matthew Windle</title>
+  <meta name="author" content="Matthew Windle">  <title>Blog | Matthew Windle - Web Developer</title>
   <link rel="stylesheet" type="text/css" href="/dist/css/main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="/dist/images/favicon.png" />
@@ -23,7 +23,7 @@
     <div class="container">
         <div>
           <h1 class="dark-title-block" >Matthew Windle</h1><br>
-          <h2 class="dark-title-block">A simple blog about life in the web industry</h2>
+          <h2 class="dark-title-block">A simple blog about my life in the web industry</h2>
         </div>
     </div>
   </header>

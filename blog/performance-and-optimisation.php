@@ -9,7 +9,7 @@
     <?php
     $path = $_SERVER['DOCUMENT_ROOT'];
     $xml = simplexml_load_file($path.'/blog.xml');
-    echo $xml->post[2]->title;  ?> | Matthew Windle
+    echo $xml->post[2]->title;  ?> | Matthew Windle - Web Developer
               </title>
   <link rel="stylesheet" type="text/css" href="/dist/css/main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -53,9 +53,13 @@
     </section>
     <aside>
       <h3>Archive</h3>
-      <h4>January 2016</h4>
+      <h4>March 2016</h4>
       <ul>
-      <a href="" ><li>Performance and Optimisation</li></a>
+      <a href="/blog/to-git-or-not-to-git.php" ><li>To Git or not to Git</li></a>
+      <a href="/blog/the-futures-bright-the-futures-grids.php" ><li>The futures bright, the futures Grids</li></a>
+      <h4>February 2016</h4>
+      <ul>
+      <a href="/blog/different-isnt-always-better.php" ><li>Different isn't always better</li></a>
       <h4>October 2016</h4>
       <ul>
       <a href="/blog/performance-and-optimisation.php" ><li>Performance and Optimisation</li></a>

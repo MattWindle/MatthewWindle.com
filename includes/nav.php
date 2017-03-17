@@ -1,9 +1,11 @@
 
 <nav id="skiptonav" role="navigation">
-<div onclick='location.href="/index.php";' class="logo_wrapper" >
-    <div class="logo-light">M</div>
-    <div class="logo-dark">W</div>
-</div>
+<a href="/index.php" >
+  <div class="logo_wrapper" >
+      <div class="logo-light">M</div>
+      <div class="logo-dark">W</div>
+  </div>
+</a>
 <div id="navigation" class="nav-links">
   <a <?php $url = explode('/',$_SERVER['REQUEST_URI']); if ($url[1] === "index.php"){echo 'class="active"';}; ?> href="/index.php/" title="The homepage">Home</a>
   <a <?php $url = explode('/',$_SERVER['REQUEST_URI']); if ($url[1] === "about-me"){echo 'class="active"';}; ?> href="/about-me/" title="Find out more about me">About</a>

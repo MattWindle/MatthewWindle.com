@@ -10,7 +10,7 @@
     <?php
     $path = $_SERVER['DOCUMENT_ROOT'];
     $xml = simplexml_load_file($path.'/blog.xml');
-    echo $xml->post[1]->title;  ?> | Matthew Windle
+    echo $xml->post[1]->title;  ?> | Matthew Windle - Web Developer
               </title>
   <link rel="stylesheet" type="text/css" href="/dist/css/main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">

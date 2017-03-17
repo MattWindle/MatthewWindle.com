@@ -5,7 +5,7 @@
   <meta name="description" content="Find out more about the web developer Matthew Windle">
   <meta name="keywords" content="Web Developer, Matthew Windle, About Me, Burnley, HTML5, CSS3, Digital Agency, MMU, Manchester">
   <meta name="author" content="Matthew Windle">
-  <title>About | Matthew Windle</title>
+  <title>About | Matthew Windle - Web Developer</title>
   <link rel="stylesheet" type="text/css" href="/dist/css/main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="/dist/images/favicon.png" />
